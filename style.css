@@ -70,6 +70,7 @@ body {
 .right-item {
   position: relative;
   font-size: 2rem;
+  margin-right: 0.2em;
 }
 
 .right-item:is(:hover, :focus) {
@@ -153,6 +154,7 @@ body {
 
 .sec-1 {
   grid-area: sec-1;
+  margin-top: 1em;
 }
 
 .main-article {
@@ -209,6 +211,7 @@ body {
 
 .img-overflow-box {
   width: calc(200px + 8vw);
+  min-width: 250px;
   position: absolute;
   right: 5%;
   top: 80%;
@@ -307,6 +310,7 @@ body {
 
   .sec-1 {
     justify-self: center;
+    margin-top: 0;
   }
 
   .sec-2 {
